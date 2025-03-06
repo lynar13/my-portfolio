@@ -150,3 +150,155 @@
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of [Your Name]">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Just+Another+Hand&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Portfolio | Lyn A</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#hero" class="nav-item">Home</a></li>
+                <li><a href="#projects" class="nav-item">Projects</a></li>
+                <li><a href="#about" class="nav-item">About</a></li>
+                <li><a href="#contact" class="nav-item">Contact</a></li>
+            </ul>
+            <div class="menu-icon" onclick="toggleMenu()">
+                <span class="material-symbols-outlined">menu</span>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="logo">
+            <a href="#about"><img src="images/logo.jpeg" alt="logo"></a>
+        </div>
+        <h2>Lyn A.</h2>
+        <div>
+            <p>Hi there! I'm Lyn A, a passionate Front-End Developer based in Oslo, Norway.</p>    
+        </div>
+        <div class="hero-icons">
+            <img src="images/icons8-html5-50.png" alt="html">
+            <img src="images/icons8-css3-50.png" alt="css">
+            <img src="images/icons8-javascript-50.png" alt="javascript">
+            <img src="images/icons8-vs-code-50 (1).png" alt="visual code">
+            <img src="images/icons8-react-js-50.png" alt="react">
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <h1>My Projects</h1>
+        <div class="projects-container">
+            <!-- Project 1: E-Commerce Store -->
+            <div class="project-card">
+                <img src="images/store app.png" alt="Store Screenshot">
+                <h3>Auction House</h3>
+                <p>The e-commerce store app is built of React application that allows users to buy products and search for specific items.</p>
+                <div class="links">
+                    <a href="https://github.com/lynar13/my-first-app" target="_blank">GitHub Repo</a>
+                    <a href="https://lyn-ellie-store.netlify.app/" target="_blank">Live Demo</a>
+                </div>
+            </div>
+             <!-- Project 1: Auction House -->
+             <div class="project-card">
+                <img src="images/auction-house.png" alt="Auction House Screenshot">
+                <h3>Auction House</h3>
+                <p>The Auction House Project is a web application that allows users to create, manage, and participate in online auctions.</p>
+                <div class="links">
+                    <a href="https://github.com/lynar13/auction-website" target="_blank">GitHub Repo</a>
+                    <a href="https://lynar13.github.io/auction-website/" target="_blank">Live Demo</a>
+                </div>
+            </div>
+            <!-- Project 2: Square Eyes -->
+            <div class="project-card">
+                <img src="images/square-eyes-screenshot.png" alt="Square Eyes Screenshot">
+                <h3>Square Eyes</h3>
+                <p>Square Eyes is a responsive website designed and developed as part of the Design, HTML & CSS course assignment...</p>
+                <div class="links">
+                    <a href="https://github.com/NoroffFEU/html-css-course-assignment-lynar13" target="_blank">GitHub Repo</a>
+                    <a href="https://norofffeu.github.io/html-css-course-assignment-lynar13/home.html" target="_blank">Live Demo</a>
+                </div>
+            </div>
+
+            <!-- Project 3: Nannestad Science Museum -->
+            <div class="project-card">
+                <img src="images/nannestad-science-museum-screenshot.png" alt="Nannestad Science Museum Screenshot">
+                <h3>Nannestad Science Museum</h3>
+                <p>A museum website that provides information about exhibitions, events, and museum news.</p>
+                <div class="links">
+                    <a href="https://github.com/lynar13/nannestad-science-museum" target="_blank">GitHub Repo</a>
+                    <a href="https://lynar13.github.io/nannestad-science-museum/" target="_blank">Live Demo</a>
+                </div>
+            </div>
+
+            <!-- Project 4: HotView Labs -->
+            <div class="project-card">
+                <img src="images/hotview-labs-screenshot.png" alt="HotView Labs Screenshot">
+                <h3>HotView Labs</h3>
+                <p>A blogging platform where users can view, create, edit, and delete blog posts.</p>
+                <div class="links">
+                    <a href="https://github.com/NoroffFEU/FED1-PE1-lynar13" target="_blank">GitHub Repo</a>
+                    <a href="https://norofffeu.github.io/FED1-PE1-lynar13/" target="_blank">Live Demo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.jpeg" alt="logo"></a>
+        </div>
+        <p>Hi there! I'm Lyn A, a passionate Front-End Developer based in Oslo, Norway. <br><br>My journey into the world of web development started with a curiosity for how websites are built and a desire to create engaging user experiences. I enjoy translating designs into functional, interactive, and visually appealing web applications.</p>
+
+        <p>With a strong foundation in HTML, CSS, and JavaScript, I am continuously learning and expanding my skill set. I have experience working with various front-end frameworks and libraries, and I'm particularly interested in responsive design and accessibility.</p>
+            
+        <p>When I'm not coding, you can find me exploring the latest trends in web development, participating in coding challenges, or contributing to open-source projects. I'm always eager to learn new technologies and take on new challenges.
+        </p>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:your.email@example.com">babyjelly13@gmail.com</a></p>
+        <div class="social-icons">
+            <p>CONNECT WITH ME</p>
+            <a href="https://github.com/lynar13" target="_blank" ><img src="images/github-142-svgrepo-com.svg" alt="github"></a>
+        </div>
+        
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Lyn A. All rights reserved.</p>
+    </footer>
+
+    <!-- Back to Top and Scroll Down Buttons -->
+    <button id="back-to-top" class="scroll-btn">
+        <span class="material-symbols-outlined">keyboard_arrow_up</span>
+    </button>
+    <button id="scroll-down" class="scroll-btn">Down</button>
+
+    <!-- Modal Structure -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <img id="modal-img" src="" alt="Project Screenshot">
+            <h3 id="modal-title"></h3>
+            <p id="modal-description"></p>
+            <div class="links" id="modal-links"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

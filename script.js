@@ -55,6 +55,15 @@ const projectCards = document.querySelectorAll(".project-card");
 // Project Details
 const projects = [
     {
+        img: "images/store-app2.png",
+        title: "Lyn Ellie Store",
+        description: "Responsive e-commerce store app designed and developed for users to buy and search for products. The project showcases a functional, single-page site built with React.",
+        links: [
+            { url: "https://github.com/lynar13/lyn-ellie-store-app", text: "GitHub Repo" },
+            { url: "https://lyn-ellie-store.netlify.app//", text: "Live Demo" }
+        ]
+    },
+    {
         img: "images/auction-house.png",
         title: "Auction House",
         description: "Auction House is a responsive website designed and developed for users to login and register an account, view, create and edit listings. The project showcases a functional, multi-page site built with Vite.",
